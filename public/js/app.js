@@ -20,7 +20,8 @@ weatherForm.addEventListener('submit',(e)=>{
             else{
                 meesageOne.textContent=data.location
                 meesagetwo.textContent=data.forecast
-                img.src="/img/download.jpg"
+    
+               // img.src="/img/download.jpg"
             }
             
         }) 
